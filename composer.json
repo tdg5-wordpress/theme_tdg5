@@ -1,9 +1,9 @@
 {
-  "name"       : "tdg5/tdg5_wordpress_theme",
+  "name"       : "tdg5-wordpress/theme_tdg5",
   "description": "Wordpress theme for blog.tdg5.com",
   "keywords"   : ["wordpress"],
   "type"       : "wordpress-theme",
-  "homepage"   : "https://github.com/tdg5/tdg5_wordpress_theme",
+  "homepage"   : "https://github.com/tdg5-wordpress/theme_tdg5",
   "license"    : "MIT",
   "authors"    : [
     {
@@ -13,8 +13,8 @@
     }
   ],
   "support"    : {
-    "issues": "https://github.com/tdg5/tdg5_wordpress_theme/issues",
-    "source": "https://github.com/tdg5/tdg5_wordpress_theme"
+    "issues": "https://github.com/tdg5-wordpress/theme_tdg5/issues",
+    "source": "https://github.com/tdg5-wordpress/theme_tdg5"
   },
   "require"    : {
     "php"                : ">=5.3",
