@@ -1,0 +1,24 @@
+{
+  "name"       : "tdg5/tdg5_wordpress_theme",
+  "description": "Wordpress theme for blog.tdg5.com",
+  "keywords"   : ["wordpress"],
+  "type"       : "wordpress-theme",
+  "homepage"   : "https://github.com/tdg5/tdg5_wordpress_theme",
+  "license"    : "MIT",
+  "authors"    : [
+    {
+      "name"    : "Danny Guinther",
+      "email"   : "dannyguinther@gmail.com",
+      "homepage": "http://tdg5.com/"
+    }
+  ],
+  "support"    : {
+    "issues": "https://github.com/tdg5/tdg5_wordpress_theme/issues",
+    "source": "https://github.com/tdg5/tdg5_wordpress_theme"
+  },
+  "require"    : {
+    "php"                : ">=5.3",
+    "composer/installers": "~1.0"
+  }
+}
+
