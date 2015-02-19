@@ -1,0 +1,32 @@
+/*
+Theme Name: tdg5
+Theme URI: http://blog.tdg5.com
+Description: Customizations to the hueman theme
+Author: tdg5
+Author URI: http://blog.tdg5.com
+Template: hueman
+*/
+
+@import url(../hueman/style.css);
+
+/* Double class match required to override inherited styles */
+.syntaxhighlighter.syntaxhighlighter-code {
+  /* !important required to override syntaxhighlighter class */
+  font-size: 14px !important;
+}
+
+/* Override gutter lines to give top and bottom lines some padding */
+.syntaxhighlighter table td.gutter .line:first-child,
+.syntaxhighlighter.syntaxhighlighter-code.nogutter table td.code .line:first-child {
+  padding-top: .5em !important;
+}
+
+.syntaxhighlighter table td.gutter .line:last-child,
+.syntaxhighlighter.syntaxhighlighter-code.nogutter table td.code .line:last-child {
+  padding-bottom: .25em !important;
+}
+
+.syntaxhighlighter.syntaxhighlighter-code.nogutter td.code .line {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
