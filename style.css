@@ -30,3 +30,19 @@ Template: hueman
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
+
+.header-link {
+  color: #444;
+  display: none;
+  margin-left: 0.25em;
+  vertical-align: middle;
+}
+
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  display: inline;
+}
