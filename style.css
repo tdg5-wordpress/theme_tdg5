@@ -11,7 +11,7 @@ Template: hueman
 
 /* Normalize font-size of inline code snippets */
 .entry code, .entry pre {
-  font-size: inherit;
+  font-size: 90%;
 }
 
 /* Double class match required to override inherited styles */
