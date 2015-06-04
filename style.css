@@ -9,6 +9,11 @@ Template: hueman
 
 @import url(../hueman/style.css);
 
+/* Normalize font-size of inline code snippets */
+.entry code, .entry pre {
+  font-size: inherit;
+}
+
 /* Double class match required to override inherited styles */
 .syntaxhighlighter.syntaxhighlighter-code {
   /* !important required to override syntaxhighlighter class */
